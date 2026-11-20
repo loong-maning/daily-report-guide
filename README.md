@@ -1,1 +1,11 @@
-# daily-report-guide
+# 007B 双程序 · 错误检索页
+
+本仓库只部署错误检索功能，含 116 项 VBA 主动报错及 3 项常见环境/无弹窗问题。
+
+## 发布到 GitHub Pages
+1. 新建仓库（公开站点请确认页面内容符合单位信息发布规定）。
+2. 将 `index.html`、`.nojekyll` 上传到仓库根目录。
+3. Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save。
+4. 后续更新只需替换 `index.html`。
+
+本页完全静态，无服务器、外部资源或实时上传功能，不会读取本地业务文件。数据来源是 2026-11-20 两份正式版 `.bas` 的静态审查，不代表宏已通过运行测试。
